@@ -1,0 +1,50 @@
+<div {$pageattrs}>
+
+{BEGIN container_masterlistheader}
+<div class="rnr-c rnr-ch rnr-c-masterlistheader">
+
+
+<div  class="style1 rnr-bl rnr-b-masterprintheader {$brickclass_masterprintheader}">	<h1>{$pagetitlelabel album masterprint}</h1>
+</div>
+
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_masterlistheader}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+<table class="rnr-c rnr-cont rnr-c-mastergrid rnr-b-masterprintfields rnr-gridtable" cellpadding="0" >
+	<thead>
+		<tr class="rnr-toprow style1 {$gridHeader_class}" >
+			<th class="{$album_id_class}">{$label album album_id}</th>
+			<th class="{$nama_album_class}">{$label album nama_album}</th>
+			<th class="{$deskripsi_class}">{$label album deskripsi}</th>
+			<th class="{$tanggaldibuat_class}">{$label album tanggaldibuat}</th>
+			<th class="{$user_id_class}">{$label album user_id}</th>
+			<th class="rnr-edge">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="rnr-row style1">
+			<td class="{$album_id_class}">{$album_id_mastervalue}</td>
+			<td class="{$nama_album_class}">{$nama_album_mastervalue}</td>
+			<td class="{$deskripsi_class}">{$deskripsi_mastervalue}</td>
+			<td class="{$tanggaldibuat_class}">{$tanggaldibuat_mastervalue}</td>
+			<td class="{$user_id_class}">{$user_id_mastervalue}</td>
+			<td class="rnr-edge">&nbsp;</td>
+		</tr>
+	</tbody>
+</table> 
+
+
+
+
+
+{END container_mastergrid}
+
+</div>

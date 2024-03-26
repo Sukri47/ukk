@@ -1,0 +1,10 @@
+[Tue Mar 26 16:29:40.376830 2024] [core:warn] [pid 15204:tid 576] AH00117: Ignoring deprecated use of DefaultType in line 21 of E:/phpenterprise/kilua/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 26 16:29:40.499862 2024] [mpm_winnt:notice] [pid 15204:tid 576] AH00455: Apache/2.4.10 (Win32) PHP/5.5.18 configured -- resuming normal operations
+[Tue Mar 26 16:29:40.499862 2024] [mpm_winnt:notice] [pid 15204:tid 576] AH00456: Apache Lounge VC11 Server built: Jul 17 2014 11:50:08
+[Tue Mar 26 16:29:40.499862 2024] [core:notice] [pid 15204:tid 576] AH00094: Command line: 'C:\\Program Files (x86)\\PHPRunner8.1\\EmbeddedServer\\bin\\httpd.exe -d C:/Program Files (x86)/PHPRunner8.1/EmbeddedServer -d C:\\Program Files (x86)\\PHPRunner8.1\\EmbeddedServer -f E:\\phpenterprise\\kilua\\tmp\\webserver.conf'
+[Tue Mar 26 16:29:40.514911 2024] [mpm_winnt:notice] [pid 15204:tid 576] AH00418: Parent: Created child process 10424
+[Tue Mar 26 16:29:43.169533 2024] [core:warn] [pid 10424:tid 648] AH00117: Ignoring deprecated use of DefaultType in line 21 of E:/phpenterprise/kilua/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 26 16:29:43.229542 2024] [core:warn] [pid 10424:tid 648] AH00117: Ignoring deprecated use of DefaultType in line 21 of E:/phpenterprise/kilua/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message

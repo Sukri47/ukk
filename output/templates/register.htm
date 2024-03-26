@@ -1,0 +1,113 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-register" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+{BEGIN regheader}
+<div  class="rnr-brickcontents style2 rnr-b-regheader {$brickclass_regheader}"><span>	<h1>{$pagetitlelabel  register}</h1>
+</span></div>{END regheader}
+
+
+{BEGIN message_block}
+<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-regfields_simple {$brickclass_regfields_simple}"><div class="rnr-simplefields edit register">
+	{BEGIN username_fieldblock}
+<div data-fieldname="username" class="rnr-field style1 {$fielddispclass_username}">
+  <span class="rnr-label">{BEGIN username_label}{$label users username}{END username_label}</span>
+  <span class="rnr-control style3">{$username_editcontrol}</span>
+</div>
+{END username_fieldblock}
+	{BEGIN password_fieldblock}
+<div data-fieldname="password" class="rnr-field style1 {$fielddispclass_password}">
+  <span class="rnr-label">{BEGIN password_label}{$label users password}{END password_label}</span>
+  <span class="rnr-control style3">{$password_editcontrol}</span>
+</div>
+{END password_fieldblock}
+	{BEGIN confirm_block}
+<div data-fieldname="password" class="rnr-field style1 {$fielddispclass_password}">
+	<span class="rnr-label">{BEGIN confirm_label}Re-enter password{END confirm_label}</span>
+	<span class="rnr-control style3">{$confirm_editcontrol1}</span>
+</div>
+{END confirm_block}
+	{BEGIN alamat_fieldblock}
+<div data-fieldname="alamat" class="rnr-field style1 {$fielddispclass_alamat}">
+  <span class="rnr-label">{BEGIN alamat_label}{$label users alamat}{END alamat_label}</span>
+  <span class="rnr-control style3">{$alamat_editcontrol}</span>
+</div>
+{END alamat_fieldblock}
+	{BEGIN email_fieldblock}
+<div data-fieldname="email" class="rnr-field style1 {$fielddispclass_email}">
+  <span class="rnr-label">{BEGIN email_label}{$label users email}{END email_label}</span>
+  <span class="rnr-control style3">{$email_editcontrol}</span>
+</div>
+{END email_fieldblock}
+	{BEGIN nama_lengkap_fieldblock}
+<div data-fieldname="nama_lengkap" class="rnr-field style1 {$fielddispclass_nama_lengkap}">
+  <span class="rnr-label">{BEGIN nama_lengkap_label}{$label users nama_lengkap}{END nama_lengkap_label}</span>
+  <span class="rnr-control style3">{$nama_lengkap_editcontrol}</span>
+</div>
+{END nama_lengkap_fieldblock}
+</div></div>
+
+
+{BEGIN regbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-regbuttons {$brickclass_regbuttons}"><div class="rnr-withsidelink">
+	<a href="#" class="rnr-button main" {$submit_attrs}>Register</a>
+	<a href="login.php" class="rnr-button link rnr-sidelink" {$backlink_attrs}>Back to login page</a>
+</div>
+
+</div>{END regbuttons}
+
+
+</div>
+{END container_fields}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>
